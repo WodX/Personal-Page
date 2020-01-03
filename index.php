@@ -1,0 +1,306 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>André Nunes</title>
+		<link rel="shortcut icon" type="image/x-icon" href="IMAGES/icon.ico" />
+		<link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+		<link href="AOS/aos.css" type="text/css" rel="stylesheet">
+		<link href="CSS/style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body class="background-softgrey">
+		
+		<div id="overlay">
+			<!--<p class="LoadTitle">André Nunes</p>-->
+			<div class="spinner"></div> 
+		</div>
+		
+		<div class="conteiner-fluid background-softgrey bgImg">
+		</div>
+		<div class="container">
+			<div class="row">
+			<!--NAV-->
+				<div class="background-blue NAV">
+					<div class="navIcons" id="BIO"><img src="IMAGES/bio.png" width="20px;"><p class="menu">Biography</p></div>
+					<div class="navIcons" id="SKILLS"><img src="IMAGES/skills.png" width="20px;"><p class="menu2">Skills</p></div>
+					<div class="navIcons" id="EXPERIENCE"><img src="IMAGES/EXPERIENCE.png" width="20px;"><p class="menu3">Experience</p></div>
+					<div class="navIcons" id="WORKS"><img src="IMAGES/WORKS.png" width="20px;"><p class="menu4">Works</p></div>
+				</div>
+				<!--END NAV-->
+				
+			<!--BIO-->
+				<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 box p-0 BIO">					
+					<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 float-left p-0 profileimage">
+						<img src="IMAGES/profile_foto.jpg">
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 float-left BioText">
+						<p class="NameTitle" id="lol">I'm <b>ANDRÉ NUNES</b></p>
+						<p>Junior Software Engineer</p>
+						<div class="background-blue separador"></div>
+						<table>
+						<tr>
+							<td><b>Age</b></td>
+							<td>23</td>
+						</tr>
+						<tr>
+							<td><b>City</b></td>
+							<td>Lisbon</td>
+						</tr>
+						<tr>
+							<td><b>Phone</b></td>
+							<td>+351 913 346 026</td>
+						</tr>
+						<tr>
+							<td><b>Email</b></td>
+							<td>andre_nunes96@hotmail.com</td>
+						</tr>
+						</table>
+						<div class="socialIcons">
+							<a href="https://www.facebook.com/andre.nunes.77985" target="_blank"><img src="IMAGES/facebook.png"></a>
+							<a href="https://www.linkedin.com/in/andrenunes96/" target="_blank"><img src="IMAGES/linkedin.png"></a>
+							<a href="https://twitter.com/andre_nunes96" target="_blank"><img src="IMAGES/twitter.png"></a>
+							<a href="https://www.instagram.com/andrenunes96/" target="_blank"><img src="IMAGES/instagram.png"></a>
+						</div>
+					</div>
+				</div>
+			<!--END BIO-->
+			
+			<!--RESUME-->
+				<div class="col-12 box RESUME" data-aos="zoom-in-down">
+					<p class="p-4">Hello, I'm André Nunes and I'm studying Multimedia Engineering at the ISTEC (Instituto Superior de Tecnologias Avançadas). I love to create new things as well as being challenged to do so. I have a taste for learning which makes me always learn new things and grow personally and professionally. My first contact with programming languages was in 2012 but only in 2016 I have seen all we could do of interesting with the programming and decided to definitely enter this branch. During my college and internships I have done some projects of different types of programming, individual or in group, having gained some flexibility to solve problems and working in team.</p>
+					<div class="background-blue separador"></div>
+					<!--<p class="downlP"><input type="button" value="Download CV"></p>-->
+				</div>
+			<!--END RESUME-->
+			
+			<!--SKILLS-->
+				<p class="MainTitle" data-aos="fade-in">SKILLS</p>
+				<div class="col-12 p-0">
+					<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 box SKILLS float-left" data-aos="fade-down">
+						<p>Main</p>
+						<!--<span class="skillNr">40%</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="40"></div>
+						</div>-->
+						<span class="skillName">PHP (Laravel)</spane>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="70"></div>
+						</div>
+						<span class="skillName">HTML</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="90"></div>
+						</div>
+						<span class="skillName">CSS (Bootstrap)</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="90"></div>
+						</div>
+						<span class="skillName">SQL</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="80"></div>
+						</div>
+						<span class="skillName">Unity (C#)</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="75"></div>
+						</div>
+						<span class="skillName">JavaScript (JQuery)</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="70"></div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 box SKILLS float-left" data-aos="fade-up">
+						<p>Personal</p>
+						<span class="skillName">Attendance</spane>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="100"></div>
+						</div>
+						<span class="skillName">Punctuality</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="95"></div>
+						</div>
+						<span class="skillName">Analytical Skill</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="80"></div>
+						</div>
+						<span class="skillName">Communicative</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="90"></div>
+						</div>
+						<span class="skillName">Desire To Learn More</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="100"></div>
+						</div>
+						<span class="skillName">Teamwork</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="90"></div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 box SKILLS float-left" data-aos="fade-down">
+						<p>Others</p>
+						<span class="skillName">Photoshop/Illustrator</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="70"></div>
+						</div>
+						<span class="skillName">After Effects</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="80"></div>
+						</div>
+						<span class="skillName">3DMax/Maya/Blender</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="60"></div>
+						</div>
+						<span class="skillName">Java (Android Studio)</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="30"></div>
+						</div>
+						<span class="skillName">Python</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="40"></div>
+						</div>
+						<span class="skillName">Swift (Xcode)</span>
+						<div class="barbg" >
+						  <div class="mybar" id="mybar" data-aos="bar" size="30"></div>
+						</div>	
+					</div>
+				</div>
+			<!--END SKILLS-->
+				
+			<!--SCHOOL-->
+				<p class="MainTitle EXPERIENCE" data-aos="fade-in">EXPERIENCE</p>
+				<div class="col-12 p-0 box mb-6 zoomEffect mymodal" id="7" data-aos="flip-right" >
+					<div class="col-sm-12 col-md-12 col-lg-2 col-xl-2  background-blue float-right years">
+						<div class="typeEXP"><img src="IMAGES/WORKS.png"></div>
+						<p>2019 - Current</p>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 background-white float-right" >
+						<p class="titleEXP">Software Developer</p>
+						<p class="m-0 local">Runtime Revolution</p>
+					</div>
+				</div>
+				<div class="col-12 p-0 box mb-6 zoomEffect mymodal" id="6" data-aos="flip-left">
+					<div class="col-sm-12 col-md-12 col-lg-2 col-xl-2  background-blue float-left years">
+						<div class="typeEXP"><img src="IMAGES/EXPERIENCE.png"></div>
+						<p>2017 - 2019</p>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 background-white float-left" >
+						<p class="titleEXP">Degree in Multimedia Engineer</p>
+						<p class="m-0 local">ISTEC - Instituto de Tecnologias Avançadas</p>
+					</div>
+				</div>
+				<div class="col-12 p-0 box mb-6 zoomEffect mymodal" id="5" data-aos="flip-right">
+					<div class="col-sm-12 col-md-12 col-lg-2 col-xl-2  background-blue float-right years">
+						<div class="typeEXP"><img src="IMAGES/WORKS.png"></div>
+						<p>2017</p>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 background-white float-right" >
+						<p class="titleEXP">Internship</p>
+						<p class="m-0 local">Creative Minds - Comunication Agency</p>
+					</div>
+				</div>
+				<div class="col-12 p-0 box mb-6 zoomEffect mymodal" id="4" data-aos="flip-left">
+					<div class="col-sm-12 col-md-12 col-lg-2 col-xl-2  background-blue float-left years">
+						<div class="typeEXP"><img src="IMAGES/EXPERIENCE.png"></div>
+						<p>2015 - 2017</p>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 background-white float-left" >
+						<p class="titleEXP">CTESP in Development of Multimedia Products</p>
+						<p class="m-0 local">ISTEC - Instituto Superior de Tecnologias Avançadas</p>
+					</div>
+				</div>
+				<div class="col-12 p-0 box mb-6 zoomEffect mymodal" id="3" data-aos="flip-right">
+					<div class="col-sm-12 col-md-12 col-lg-2 col-xl-2  background-blue float-right years">
+						<div class="typeEXP"><img src="IMAGES/WORKS.png"></div>
+						<p>2015</p>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 background-white float-right" >
+						<p class="titleEXP">Internship</p>
+						<p class="m-0 local">Centro Educatis - Vocational Training Center</p>
+					</div>
+				</div>
+				<div class="col-12 p-0 box mb-6 zoomEffect mymodal" id="2" data-aos="flip-left">
+					<div class="col-sm-12 col-md-12 col-lg-2 col-xl-2  background-blue float-left years">
+						<div class="typeEXP"><img src="IMAGES/EXPERIENCE.png"></div>
+						<p>2012 - 2015</p>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 background-white float-left" >
+						<p class="titleEXP">Professional Course in Multimedia Technician</p>
+						<p class="m-0 local">EBSSM - Escola Básica e Secundária de Salvaterra de Magos</p>
+					</div>
+				</div>
+				<div class="col-12 p-0 box mb-6 zoomEffect mymodal" id="1" data-aos="flip-right">
+					<div class="col-sm-12 col-md-12 col-lg-2 col-xl-2  background-blue float-right years">
+						<div class="typeEXP"><img src="IMAGES/WORKS.png"></div>
+						<p>2014</p>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 background-white float-right" >
+						<p class="titleEXP">Internship</p>
+						<p class="m-0 local">Terra das Ideias - Comunication Agency</p>
+					</div>
+				</div>
+				
+			<!--END SCHOOL-->
+				
+			<!--WORKS-->
+				<p class="MainTitle WORKS" data-aos="fade-in">WORKS <script>modal["title"]</script></p>
+				<div class="col-12 p-0 workBox" data-aos="fade-down">
+					<a href="https://sn.andrenunes.dev" target="_blank">
+						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box mb-4 float-left zoomEffect" >
+							<img src="IMAGES/socialnetwork.png" width="100%;">
+							<p><b>Social Network</b></p>
+							<p>This work was a job for college where the goal was simply to create a add and edit user in PHP and SQL but I thought it was a rather boring. So I created a small social network with users distinctions where you can have a profile and do some post to communicate. Does the same thing the teacher asked for but is more interesting and he liked it.</p>
+						</div>
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=com.PontoPixel.shoothit" target="_blank">
+						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box mb-4 float-left zoomEffect">
+							<img src="IMAGES/shoothit.png" width="100%;">
+							<p><b>Shoot Hit</b></p>
+							<p>I made this game just for fun. I had two weeks off, so I had to do something productive and different from the usual, so I thought of an Android game. This is my first complete game made in Unity with C#. You can download it in the playstore for free. I hope you like.</p>
+						</div>
+					</a>
+					<a href="#" target="_blank">
+						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box mb-4 float-left zoomEffect">
+							<img src="IMAGES/cvimage.png" width="100%;">
+							<p><b>Personal Webpage</b></p>
+							<p>I have not used a template on this page. I wanted to do it myself so, I did! This is the final result, I hope you like the page.</p>
+						</div>
+					</a>
+					<a href="https://gw.andrenunes.dev" target="_blank">
+						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box mb-4 float-left zoomEffect">
+							<img src="IMAGES/gymnworks.png" width="100%;">
+							<p><b>GymnWorks</b></p>
+							<p>This is my final project to finish my course. I had my first contact with the laravel framework on this project and it was an interesting challenge. In this project you can find 3 types of users, gymnasts, who can see plans assigned by coaches, coach, can create plans and assign to gymnasts, admins manage the web app. </p>
+						</div>
+					</a>
+				</div>
+			<!--END WORKS-->
+								
+				
+			</div>
+		</div>
+		<!--FOOTER-->
+		<div class="conteiner-fluid">
+			<div class="rodape">Copyright © 2019 - André Nunes</div>
+		</div>
+		<div class="ScrollTop"></div>
+
+		<div id="moreInfo" class="modal">
+			<div  class="modal-content">
+				<span class="close" >&times;</span>
+				<p class="modalTitle"></p>
+				<p class="modalLocal"></p>
+				<p class="modalTime"></p>
+				<p class="modalMark"></p>
+				<p class="modalDesc"></p>
+				<p class="modalTec"></p>
+			</div>
+		</div>
+
+	</body>
+	<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+	<script src="AOS/aos.js"></script>
+	<script src="JS/mainjs.js" type="text/javascript"></script>
+	<script>
+  AOS.init({
+	  duration: 500
+  });
+</script>
+</html>

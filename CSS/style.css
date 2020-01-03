@@ -1,0 +1,555 @@
+/*-----------GERAL STUFF-----------------------------------------------------------------*/
+
+html, body {
+	height: 100%;
+}
+
+.background-softgrey {
+	background-color: #ececec;
+}
+.background-white {
+	background-color: white;
+}
+
+.background-blue {
+	background-color: dodgerblue;
+}
+
+.separador {
+	width: 100%;
+	height: 1px;
+}
+
+.box{
+	background-color: white;
+	box-shadow: 0px 5px 10px RGBA(000,000,000,25%);
+}
+
+.boxPrivacy{
+	background-color: white;
+	box-shadow: 0px 5px 10px RGBA(000,000,000,25%);
+	padding: 50px;
+	width: 60%;
+	margin: auto;
+	border-radius: 15px;
+
+}
+
+.MainTitle {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px 0 50px 0;
+	color: dodgerblue;
+	width: 100%;
+}
+
+.mb-6 {
+	margin-bottom: 4rem;
+}
+
+
+ /*-----------LOADER STUFF-----------------------------------------------------------------*/
+
+
+.LoadTitle{
+	width: 200px;
+    height: 80px;
+    font-size: 30;
+    font-weight: 900;
+    color: white;
+
+	position: absolute;
+    top:0;
+    bottom:100px;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+
+.spinner{
+    width: 80px;
+    height: 80px;
+    
+    border: 2px solid #f3f3f3;
+    border-top:3px solid dodgerblue;
+    border-radius: 100%;
+    
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+#overlay{
+  height:100%;
+  width:100%;
+  background:rgba(0, 0, 0, 1);
+  position:fixed;
+  left:0;
+  top:0;
+  z-index: 999;
+ }
+
+/*-----------BACKGROUND STUFF-----------------------------------------------------------------*/
+
+.bgImg {
+	position: absolute;
+	z-index: -1;
+	background-image: url(../IMAGES/bg.jpg);
+	height: 300px;
+	top: 0px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*-----------NAV STUFF-----------------------------------------------------------------*/
+
+.NAV {
+	position: absolute;
+	z-index: 1;
+	height: 200px;
+	width: 50px;
+	margin-left: -50px;
+	margin-top: 200px;
+}
+
+.navIcons {
+	width: 100%;
+	height: 50px;
+	border-bottom: 5px black;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
+	transition-property: all;
+  	transition-duration: 0.2s;
+}
+
+.navIcons:hover {
+	background-color: #0072e1;
+}
+
+.navIcons p {
+	height: 50px;
+	text-align: center;
+	background-color: #0072e1;
+	width: 100px;
+	padding: 12px;
+	color:white;
+	font-weight: bold;
+	margin: 0;
+}
+
+.menu {
+	position: absolute;
+	z-index:2;
+	opacity: 0;
+	top:0;
+	left:0;
+	transition-property: all;
+  	transition-duration: 0.3s;
+}
+.menu2 {
+	position: absolute;
+	z-index:2;
+	opacity: 0;
+	top:50px;
+	left:0;
+	transition-property: all;
+  	transition-duration: 0.3s;
+}
+.menu3 {
+	position: absolute;
+	z-index:2;
+	opacity: 0;
+	top:100px;
+	left:0;
+	transition-property: all;
+  	transition-duration: 0.3s;
+}
+.menu4 {
+	position: absolute;
+	z-index:2;
+	opacity: 0;
+	top:150px;
+	left:0;
+	transition-property: all;
+  	transition-duration: 0.3s;
+}
+
+
+.navIcons:hover .menu, .navIcons:hover .menu2, .navIcons:hover .menu3, .navIcons:hover .menu4 {
+	left:50px;
+	opacity: 100;
+}
+
+/*-----------BIO STUFF-----------------------------------------------------------------*/
+
+.BIO {
+	
+	text-align: left;
+	margin-top: 200px;
+}
+
+.NameTitle b {
+	color: dodgerblue;
+}
+
+
+.profileimage img {
+	width: 100%;
+}
+
+.NameTitle {
+	font-size: 30px;
+	margin: 0;
+}
+
+.BioText {
+	padding: 20px;
+}
+
+.BioText table {
+	margin-top: 10px;
+	width: 50%;
+	
+}
+
+.socialIcons {
+	width: 100%;
+	margin-top: 20px;
+}
+.socialIcons a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.socialIcons img {
+	width: 30px;
+}
+
+
+
+/*-----------RESUME STUFF-----------------------------------------------------------------*/
+
+
+.RESUME {
+	margin-top: 100px;
+}
+
+.downlP {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.downlP input {
+	width: 125px;
+	height: 40px;
+	background-color: dodgerblue;
+	color: white;
+	border: none;
+	box-shadow: 0px 3px 4px RGBA(000,000,000,25%);
+	cursor: pointer;
+	transition: transform .1s;
+}
+
+.downlP input:hover{
+	background-color: #1172d1;
+}
+
+.downlP input:active {
+	transform: scale(0.9);
+}
+
+/*-----------SKILL STUFF-----------------------------------------------------------------*/
+
+.SKILLS {
+	margin-bottom: 20px;
+	height: 400px;
+}
+
+.SKILLS p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.SKILLS .skillName {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.SKILLS .skillNr {
+	font-size: 12px;
+	float: right;
+	text-align: right;
+}
+
+.barbg {
+	width: 100%;
+	height: 5px;
+	background-color: #ececec;
+	border-radius: 15px;
+	margin: 5px 0 20px 0;
+}
+.myBar {
+    width: 10%;
+    height: 5px;
+    background-color: dodgerblue;
+    text-align: center; 
+    color: white;
+	padding: 0px;
+	border-radius: 15px;
+}
+
+
+
+/*-----------EXPERIENCE STUFF-----------------------------------------------------------------*/
+
+.typeEXP {
+	position:absolute;
+	left:50%;
+	transform: translate(-50%, -62%);
+	border-radius: 50%;
+	background-color: dodgerblue;
+	padding: 10px;
+	}
+
+.typeEXP img {
+	border-radius: 50%;
+	width: 50px;
+}
+.years p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.titleEXP {
+	margin: 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+	width: 100%;
+	text-align: left;
+}
+
+
+/*-----------WORKS STUFF-----------------------------------------------------------------*/
+
+.workBox {
+	text-align: center;
+}
+
+.workBox img {
+	margin-bottom: 10px;
+}
+
+.workBox a, .workBox a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.workBox div {
+	height: 600px;
+}
+
+.zoomEffect {
+    transition: transform .2s;	
+}
+
+.zoomEffect:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+	z-index: 2;
+	cursor: pointer;
+}
+
+
+/*-----------SCROLL STUFF-----------------------------------------------------------------*/
+
+
+.scrollTop {
+	position: fixed;
+	right: 25px;;
+	bottom: 25px;
+	width: 50px;
+	height: 50px;
+	padding: 20px;
+	opacity: 0;
+	transition: all 0.4s ease-in-out 0s;
+	cursor: pointer;
+	display: block;
+	background-image: url(../IMAGES/top.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+/*-----------FOOTER STUFF-----------------------------------------------------------------*/
+
+.rodape {
+	background-color: #353535;
+	margin-top: 100px;
+	height: 75px;
+	z-index: 0;
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+
+/*-----------Modal STUFF-----------------------------------------------------------------*/
+	
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 5; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  position: relative;
+  max-width: 800px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  left: 95%;
+  top: 0;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/*-----------RESPONSIVE STUFF-----------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+	
+	.NAV{
+		display: none;
+	}
+	
+
+}
+
+@media (max-width: 991px) {
+	
+	.BIO {
+		text-align: center;
+	}
+	
+	.profileimage {
+		position:absolute;
+		left:50%;
+		transform: translate(-50%, -62%);
+	}
+
+	.profileimage img {
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+	}
+	
+	.BioText {
+		margin-top: 75px;
+	}
+	.scrollTop {
+		display: none;
+	}
+	.zoomEffect:hover {
+    transform: none; 
+}
+}
+
+
+
+
+/*-----------AOS STUFF-----------------------------------------------------------------*/
+
+
+[data-aos="bar"] {
+  width: 0%;
+  transition-property: width;
+  transition-duration: 2s!important;
+}
+
+[size="100"].aos-animate {
+  width: 100%;
+}
+[size="95"].aos-animate {
+  width: 95%;
+}
+[size="90"].aos-animate {
+  width: 90%;
+}
+[size="80"].aos-animate {
+  width: 80%;
+}
+[size="75"].aos-animate {
+  width: 75%;
+}
+[size="70"].aos-animate {
+  width: 70%;
+}
+[size="60"].aos-animate {
+  width: 60%;
+}
+[size="50"].aos-animate {
+  width: 50%;
+}
+[size="40"].aos-animate {
+  width: 40%;
+}
+[size="30"].aos-animate {
+  width: 30%;
+}
+[size="20"].aos-animate {
+  width: 20%;
+}
+[size="10"].aos-animate {
+  width: 10%;
+}
+
