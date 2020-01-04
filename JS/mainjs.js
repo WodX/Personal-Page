@@ -85,7 +85,7 @@ $(document).ready(function(){
 			  	var link = "https://www.istec.pt/ctesp-desenvolvimento-de-produtos-multimedia/";
 			  	var time = "2 Years";
 			  	var mark = "17";
-			  	var desc = "";
+			  	var desc = "Acquired knowledge in programming. design, video, and 3D.";
 			    break;
 			  case "5":
 			  	var link = "https://creative-minds.pt/";
@@ -97,12 +97,12 @@ $(document).ready(function(){
 			  	var link = "https://www.istec.pt/engenharia-multimedia/";
 			  	var time = "2 Years";
 			  	var mark = "16";
-			  	var desc = "";
+			  	var desc = "In this course, I learned the fundamentals of programming, data structures, cryptography, and web development.";
 			    break;
 			  case "7":
 			  	var link = "https://www.runtime-revolution.com/"
-			  	var time = "?";
-			  	var mark = "?";
+			  	var time = "Since Set 2019";
+			  	var mark = "Not applicable";
 			  	var desc = "This is my first job as software developer and I'm using Hybrid applications such as React Native, Xamarin and Cordova.";
 			    break;
 			  default:
